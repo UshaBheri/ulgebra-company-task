@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#ffffff;
+}
+
+header {
+    background-color: darkgoldenrod;
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.logout{
+    text-align: right;
+    background-color: black;
+}
+
+.logout-btn{
+    background-color: rgb(142, 144, 142);
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#app {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: rgb(252, 249, 249);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading{
+    text-align: center;
+}
+
+.btn{
+    text-align: center;
+}
+
+button {
+    background-color: #eec006;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-btn{
+    text-align: center;
+    margin: 10px;
+}
+
+.text{
+    background-color: black;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.note {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.note p {
+    flex-grow: 1;
+    margin: 0;
+}
+
+.note button {
+    margin-left: 10px;
+}
+
+.folder {
+    margin: 10px 0;
+    cursor: pointer;
+    background-color: #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.delete-folder-button {
+    background-color: #eec006;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
